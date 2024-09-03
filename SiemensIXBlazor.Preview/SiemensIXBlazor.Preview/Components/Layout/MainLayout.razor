@@ -1,4 +1,6 @@
 ﻿@using SiemensIXBlazor.Components
+@using SiemensIXBlazor.Components.About
+@using SiemensIXBlazor.Components.MenuSettings
 @using SiemensIXBlazor.Objects.Application
 @using SiemensIXBlazor.Components.BasicNavigation
 @using SiemensIXBlazor.Components.NavigationMenu
@@ -11,9 +13,24 @@
     </ApplicationHeader>
     <NavigationMenu Id="nav-menu-1">
         <a href=""><NavigationMenuItem Home Icon="home">Home</NavigationMenuItem></a>
-        <ix-menu-category icon="globe" label="Components">
+        <NavigationMenuCategory Icon="globe" Label="Components">
+            <a href="Button"><NavigationMenuItem>Button</NavigationMenuItem></a>
             <a href="IconButton"><NavigationMenuItem>Icon Button</NavigationMenuItem></a>
-        </ix-menu-category>
+        </NavigationMenuCategory>
+        <MenuSettings Id="settings">
+          <MenuSettingsItem
+            Label="Example Setting 1"
+          ></MenuSettingsItem>
+          <MenuSettingsItem
+            Label="Example Setting 2"
+          ></MenuSettingsItem>
+        </MenuSettings>
+        <AboutMenu Id="about-menu">
+          <AboutMenuItem Label="New Features">Tab content here</AboutMenuItem>
+        </AboutMenu>
+        <AboutMenuNews Id="about-menu-news" Label="New Features" Show="true" AboutItemLabel="View documentation">
+            News content can be displayed here
+        </AboutMenuNews>
     </NavigationMenu>
     <Content>
         @Body
