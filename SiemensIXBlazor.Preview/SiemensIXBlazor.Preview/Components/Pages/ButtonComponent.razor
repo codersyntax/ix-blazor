@@ -1,0 +1,113 @@
+﻿@page "/Button"
+@using SiemensIXBlazor.Components
+@using SiemensIXBlazor.Enums.Button
+
+<PageTitle>Button</PageTitle>
+
+<div>
+    <div class="p-2">
+        <h2>Button Examples</h2>
+    </div>
+
+    <div>
+        <h3>Primary</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Variant="ButtonVariant.primary">Button</Button>
+        <Button Variant="ButtonVariant.secondary">Button</Button>
+    </div>
+
+    <div>
+        <h3>Primary Outline</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Outline>Button</Button>
+        <Button Disabled Outline>Button</Button>
+    </div>
+
+    <div>
+        <h3>Primary Ghost</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Ghost>Button</Button>
+        <Button Disabled Ghost>Button</Button>
+    </div>
+
+    <div>
+        <h3>Secondary</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Variant="ButtonVariant.secondary">Button</Button>
+        <Button Disabled Variant="ButtonVariant.secondary">Button</Button>
+    </div>
+
+    <div>
+        <h3>Secondary Outline</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Outline Variant="ButtonVariant.secondary">Button</Button>
+        <Button Disabled Outline Variant="ButtonVariant.secondary">Button</Button>
+    </div>
+
+    <div>
+        <h3>Secondary Ghost</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Ghost Variant="ButtonVariant.secondary">Button</Button>
+        <Button Disabled Ghost Variant="ButtonVariant.secondary">Button</Button>
+    </div>
+
+    <div>
+        <h3>Danger</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        Unsupported currently
+    </div>
+
+    <div>
+        <h3>Danger Outline</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        Unsupported currently
+    </div>
+
+    <div>
+        <h3>Danger Ghost</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        Unsupported currently
+    </div>
+
+    <div>
+        <h3>Button Group</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <div class="btn-group">
+            <Button Outline>Button 1</Button>
+            <Button>Button 2</Button>
+            <Button Outline>Button 3</Button>
+            <Button Outline>Button 4</Button>
+        </div>
+    </div>
+
+    <div>
+        <h3>Button with text and icon</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <Button Variant="ButtonVariant.primary" Icon="star">Button</Button>
+        <Button Variant="ButtonVariant.secondary" Icon="star">Button</Button>
+        <Button Outline Icon="star">Button</Button>
+        <Button Ghost Icon="star">Button</Button>
+    </div>
+
+    <div>
+        <h3>Loading Button</h3>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        Unsupported currently
+    </div>
+</div>
+
+@code {
+
+}
