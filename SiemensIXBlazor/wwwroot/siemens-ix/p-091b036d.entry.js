@@ -1,0 +1,2 @@
+import{r as e,c as t,h as s,H as a}from"./p-f87cd962.js";const c=":host{display:block}";const n=c;const i=class{constructor(s){e(this,s);this.labelChange=t(this,"labelChange",7);this.label=undefined}watchLabel(e,t){this.labelChange.emit({name:"ix-menu-settings-item",oldLabel:t,newLabel:e})}render(){return s(a,{key:"4a2b28d8557666fe0bba168564975571238c618d"},s("slot",{key:"c6f14fc9b3f99836e0e78a553e8f823e274f26d1"}))}static get watchers(){return{label:["watchLabel"]}}};i.style=n;export{i as ix_menu_settings_item};
+//# sourceMappingURL=p-091b036d.entry.js.map

@@ -1,0 +1,2 @@
+import{r as e,h as n,H as t}from"./p-f87cd962.js";const r=":host{display:flex;justify-content:center;align-items:center;margin-inline-start:1.5rem;margin-inline-end:1.5rem;margin-block-end:0.25rem}:host slot::slotted(*){display:flex;margin-inline-end:0.625rem}";const s=r;const a=class{constructor(n){e(this,n)}render(){return n(t,{key:"f8336e321ecbdf72f5ed73218cdb257ad9cfa6fb"},n("slot",{key:"a91fe26669fdd27a72fecc5f4aeca92d4a8258fa"}))}};a.style=s;export{a as ix_dropdown_quick_actions};
+//# sourceMappingURL=p-04af3853.entry.js.map
