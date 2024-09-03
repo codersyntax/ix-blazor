@@ -1,21 +1,23 @@
 ﻿@using SiemensIXBlazor.Components
+@using SiemensIXBlazor.Objects.Application
 @using SiemensIXBlazor.Components.BasicNavigation
 @using SiemensIXBlazor.Components.NavigationMenu
-@using SiemensIXBlazor.Objects.Application
-@inherits LayoutComponentBase
-@inject NavigationManager NavigationManager;
 
-<Application Id="application">
+@inherits LayoutComponentBase
+
+<Application Id="application" Style="width:100vw; height:100vh;">
     <ApplicationHeader Name="Siemens.IX.Blazor">
         <div slot="logo"></div>
     </ApplicationHeader>
     <NavigationMenu Id="nav-menu-1">
-        <NavigationMenuItem>Home</NavigationMenuItem>
-        <NavigationMenuItem @onclick="() => { OnNavigationNodeClick(NavigationPage.IconButton); }">Icon Button</NavigationMenuItem>
+        <a href=""><NavigationMenuItem Home Icon="home">Home</NavigationMenuItem></a>
+        <ix-menu-category icon="globe" label="Components">
+            <a href="IconButton"><NavigationMenuItem>Icon Button</NavigationMenuItem></a>
+        </ix-menu-category>
     </NavigationMenu>
-    <ix-content>
+    <Content>
         @Body
-    </ix-content>
+    </Content>
 </Application>
 
 <div id="blazor-error-ui">
@@ -23,24 +25,3 @@
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
-
-@code {
-    private void OnNavigationNodeClick(NavigationPage page)
-    {
-        switch (page)
-        {
-            case NavigationPage.IconButton:
-                NavigationManager.NavigateTo("IconButton");
-                break;
-            default:
-                NavigationManager.NavigateTo("#");
-                break;
-        }
-    }
-
-    internal enum NavigationPage
-    {
-        Home,
-        IconButton
-    }
-}

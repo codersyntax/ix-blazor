@@ -1,0 +1,37 @@
+﻿@page "/IconButton"
+@using SiemensIXBlazor.Components
+@using SiemensIXBlazor.Enums.Button
+
+<PageTitle>Icon Button</PageTitle>
+
+<div>
+    <div class="p-2">
+        <h2>Icon Button Examples</h2>
+    </div>
+    <div class="p-2 d-flex gap-2 flex-row">
+        <IconButton Icon="info" Variant="ButtonVariant.primary"></IconButton>
+        <IconButton Icon="info" Variant="ButtonVariant.secondary"></IconButton>
+        @*     <IconButton Icon="info" Variant="ButtonVariant.danger"></IconButton> Missing support *@
+        <IconButton Icon="info" Outline></IconButton>
+        <IconButton Icon="info" Ghost></IconButton>
+    </div>
+
+    <div class="p-2 d-flex gap-2 flex-row">
+        <IconButton Icon="info" Variant="ButtonVariant.primary" Oval="true"></IconButton>
+        <IconButton Icon="info" Variant="ButtonVariant.secondary" Oval="true"></IconButton>
+        @*     <IconButton Icon="info" Variant="ButtonVariant.danger" Oval="true"></IconButton> Missing support *@
+        <IconButton Icon="info" Oval="true" Outline></IconButton>
+        <IconButton Icon="info" Oval="true" Ghost></IconButton>
+    </div>
+
+    <div class="p-2 d-flex gap-2 flex-row">
+        <IconButton Icon="star" Size="IconButtonSize._12"></IconButton>
+        <IconButton Icon="star" Size="IconButtonSize._16"></IconButton>
+        <IconButton Icon="star" Size="IconButtonSize._24"></IconButton>
+        @*     <IconButton Icon="star" Size="IconButtonSize._32"></IconButton> Missing support *@
+    </div>
+</div>
+
+@code {
+
+}
