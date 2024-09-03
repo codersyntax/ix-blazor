@@ -1,0 +1,2 @@
+import{r as s,h as t,H as o}from"./p-f87cd962.js";const c=":host{display:block}";const l=c;const e=class{constructor(t){s(this,t);this.contentVisible=false}render(){return t(o,{key:"04dc2496f04f8fd290df6f9583341f04b4dee5cd"},this.contentVisible?t("slot",null):null)}};e.style=l;export{e as ix_flip_tile_content};
+//# sourceMappingURL=p-c05a98c8.entry.js.map

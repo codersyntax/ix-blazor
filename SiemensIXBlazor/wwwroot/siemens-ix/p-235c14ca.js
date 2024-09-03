@@ -1,0 +1,2 @@
+async function n(){if(typeof window==="undefined"){return}const n=window.customElements.get("ix-icon");if(n){return}console.warn("ix-icon web component not loaded. Using local fallback version");const o=await import("./p-1f6df0c6.js").then((function(n){return n.i}));await o.defineCustomElements()}async function o(){await n()}const i=o;export{i as g};
+//# sourceMappingURL=p-235c14ca.js.map
