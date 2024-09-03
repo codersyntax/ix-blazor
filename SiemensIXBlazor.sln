@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9AA3C4E1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiemensIXBlazor.Tests", "SiemensIXBlazor.Tests\SiemensIXBlazor.Tests.csproj", "{0E18AA5B-2E9A-48BA-A07F-621B5DCBBDC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiemensIXBlazor.Preview", "SiemensIXBlazor.Preview\SiemensIXBlazor.Preview\SiemensIXBlazor.Preview.csproj", "{9ECD0C90-9921-45D3-8504-322C3153E0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiemensIXBlazor.Preview.Client", "SiemensIXBlazor.Preview\SiemensIXBlazor.Preview.Client\SiemensIXBlazor.Preview.Client.csproj", "{152F4913-DC46-41FA-96D7-ECBF972721A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,10 +29,14 @@ Global
 		{0E18AA5B-2E9A-48BA-A07F-621B5DCBBDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E18AA5B-2E9A-48BA-A07F-621B5DCBBDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E18AA5B-2E9A-48BA-A07F-621B5DCBBDC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{682ADEDC-AE1F-46C9-9F0D-7DE297BAC82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{682ADEDC-AE1F-46C9-9F0D-7DE297BAC82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{682ADEDC-AE1F-46C9-9F0D-7DE297BAC82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{682ADEDC-AE1F-46C9-9F0D-7DE297BAC82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECD0C90-9921-45D3-8504-322C3153E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECD0C90-9921-45D3-8504-322C3153E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECD0C90-9921-45D3-8504-322C3153E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECD0C90-9921-45D3-8504-322C3153E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152F4913-DC46-41FA-96D7-ECBF972721A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152F4913-DC46-41FA-96D7-ECBF972721A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152F4913-DC46-41FA-96D7-ECBF972721A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152F4913-DC46-41FA-96D7-ECBF972721A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8520AECF-0DA3-4A68-8525-5D9E21E36B14} = {EE5229A1-C9DA-416D-99B1-E28B0B614D55}
 		{0E18AA5B-2E9A-48BA-A07F-621B5DCBBDC9} = {9AA3C4E1-3873-4856-8725-D1858590EF32}
+		{9ECD0C90-9921-45D3-8504-322C3153E0E8} = {9AA3C4E1-3873-4856-8725-D1858590EF32}
+		{152F4913-DC46-41FA-96D7-ECBF972721A7} = {9AA3C4E1-3873-4856-8725-D1858590EF32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0AD2AAA-E398-423F-8426-67D6388D11F4}
